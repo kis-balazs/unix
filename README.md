@@ -1,4 +1,3 @@
-# academy_plus_work
-My Work in the Academy+Plus
+## Unix-based mini-projects
 
-Projects made by me integrally.
+Such as reproduction of the ls command, a graphical visualisation project, etc.

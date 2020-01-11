@@ -78,7 +78,7 @@ int					pfile_infos(t_files *node, char *fname, t_params opts)
 		return (0);
 	}
 	node->fcount = S_ISDIR(stated.st_mode) && !node->fcount ? -1 : 0;
-	node->stmp = stated.st_mtimespec;
+	//node->stmp = stated.st_mtimespec;
 	if (opts & ADD_FTYPE)
 	{
 		tmp = slh;
